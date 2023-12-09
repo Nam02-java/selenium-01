@@ -238,7 +238,7 @@ public class Selenium extends TelegramLongPollingBot {
         WebDriverWait wait;
         List<WebElement> element_solve;
         String user_name = "nam02test"; // mô phỏng tên user
-        String user_password = "IUtrangmaimai02"; // mô phỏng password user
+        String user_password = "Matkhau123"; // mô phỏng password user
         JavascriptExecutor js;
         WebElement webElement;
 
@@ -330,7 +330,7 @@ public class Selenium extends TelegramLongPollingBot {
             System.out.println("done image");
 
             try {
-                int countdownDuration = 3000;
+                int countdownDuration = 30;
                 for (int second = 0; second <= countdownDuration; second++) {
                     System.out.println(countdownDuration - second);
                     try {
